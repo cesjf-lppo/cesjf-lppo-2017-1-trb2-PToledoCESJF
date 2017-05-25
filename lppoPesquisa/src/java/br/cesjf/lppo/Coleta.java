@@ -5,7 +5,7 @@ import java.util.Date;
 public class Coleta {
     private int idColeta;
     private String descricao;
-    private Date data;
+    private Date dataColeta;
 
     public int getIdColeta() {
         return idColeta;
@@ -23,12 +23,12 @@ public class Coleta {
         this.descricao = descricao;
     }
 
-    public Date getData() {
-        return data;
+    public Date getDataColeta() {
+        return dataColeta;
     }
 
-    public void setData(Date data) {
-        this.data = data;
+    public void setData(Date dataColeta) {
+        this.dataColeta = dataColeta;
     }
     
 }

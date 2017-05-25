@@ -1,5 +1,5 @@
-<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <html>
     <head>
@@ -16,6 +16,7 @@
                     <th>ID</th>
                     <th>Descrição</th>
                     <th>Data</th>
+                    <th>Novo Ponto</th>
                 </tr>
             </thead>
             <tbody>
@@ -23,7 +24,8 @@
                     <tr>
                         <td>${coleta.idColeta}</td>
                         <td>${coleta.descricao}</td>
-                        <td>${coleta.data}</td>
+                        <td>${coleta.dataColeta}</td>
+                        <td><a href="novaleitura.html?idColeta=${coleta.idColeta}">P</a></td>
                     </tr>
                 </c:forEach>
             </tbody>

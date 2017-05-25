@@ -10,8 +10,8 @@
         <h1>Nova Coleta!</h1>
         <div style="color: red;">${mensagem}</div>
         <form method="POST">
-            <div><label>Pedido: <input type="text" name="txtDescricao" placeholder="Descrição da coleta"/></label></div>
-            <div><label>Data: <input type="text" name="txtData" placeholder="Data da coleta"/></label></div>
+            <div><label>Descrição : <input type="text" name="txtDescricao" placeholder="Descrição da coleta"/></label></div>
+            <div><label>Data : <input type="text" name="txtDataColeta" placeholder="Data da coleta"/></label></div>
             <div> <input type="submit" /></div>
         </form>
     </body>
